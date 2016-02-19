@@ -16,7 +16,7 @@ var      gulp = require('gulp'),
       browsers: ['last 2 versions'],
       cascade: false
     }))
-      .pipe(nano())
+//      .pipe(nano())
       .pipe(rename('styles.min.css'))
       .pipe(maps.write('./'))
       .pipe(gulp.dest('css'))

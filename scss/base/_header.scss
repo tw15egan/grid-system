@@ -1,0 +1,27 @@
+header {
+  min-height: 100px;
+  margin: 0 auto;
+  background-color: $color-primary;
+  color: palette(gray, xx-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .small {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  .subheader {
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+}

@@ -1,2 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.row::before,
+.row::after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.grid-container {
+  width: 100%;
+  max-width: 1200px; }
+
+.col {
+  position: relative;
+  float: left;
+  min-height: 1px; }
+
+.col-1 {
+  width: 6.866666667%; }
+
+.col-2 {
+  width: 15.3333333333%; }
+
+.col-3 {
+  width: 23.8%; }
+
+.col-4 {
+  width: 32.2666666667%; }
+
+.col-5 {
+  width: 40.7333333333%; }
+
+.col-6 {
+  width: 49.2%; }
+
+.col-7 {
+  width: 57.6666666667%; }
+
+.col-8 {
+  width: 66.1333333333%; }
+
+.col-9 {
+  width: 74.6%; }
+
+.col-10 {
+  width: 83.0666666667%; }
+
+.col-11 {
+  width: 91.5333333333%; }
+
+.col-12 {
+  width: 100%; }
+
+.col + .col {
+  margin-left: 1.6%; }
+
+@media (max-width: 550px) {
+  [class^="col"] {
+    width: auto;
+    float: none; }
+  .col + .col {
+    margin-left: 0; } }
+
+body {
+  font-family: "museo-sans",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px; }
+
+* {
+  box-sizing: border-box; }
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #ebecec;
+  color: #52bab3; }
+
+.content {
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #fff; }
+
+.col {
+  min-height: 40px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #ebecec;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.row {
+  min-height: 40px;
+  margin-bottom: 1em; }
+
+header {
+  min-height: 100px;
+  margin: 0 auto;
+  background-color: #52bab3;
+  color: #ebecec;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 1rem; }
+  header h1 {
+    font-size: 3rem; }
+  header .small {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 300; }
+  header .subheader {
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300; }
+
+footer {
+  height: 100px;
+  margin: 0 auto;
+  background-color: #52bab3;
+  border-radius: 0 0 20px 20px; }
 
 /*# sourceMappingURL=styles.min.css.map */
